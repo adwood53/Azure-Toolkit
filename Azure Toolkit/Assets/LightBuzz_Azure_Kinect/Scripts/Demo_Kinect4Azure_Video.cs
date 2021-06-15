@@ -45,7 +45,7 @@ namespace LightBuzz.Kinect4Azure
                 DepthResolution = _sensor.Configuration.DepthMode.Size(),
                 RecordColor = true,
                 RecordDepth = true,
-                RecordBody = false,
+                RecordBody = true,
                 RecordFloor = false,
                 RecordIMU = false
             });
